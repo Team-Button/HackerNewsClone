@@ -1,6 +1,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 import Login from './Login'
+import './header.css'
 
 export default function Header() {
     return (

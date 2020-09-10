@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #ff6600;
+    padding: 3px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a:active{
+    color: white;
+}
+.navBrand{
+    padding-right: 10px;
+}
+
+.yLetter{
+    border: 1px solid white;
+    color: white;
+    margin-right: 5px;
+    padding: 2px 6px 2px 6px;
+}
+
+.hackerNews{
+    font-weight: bold;
+}

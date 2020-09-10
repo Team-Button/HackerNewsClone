@@ -2,10 +2,13 @@ import React from 'react'
 import footerMenu from './footerMenu.json'
 
 export default function FooterMenu() {
+
+    const baseURL = 'https://news.ycombinator.com'
+
     return (
-        <div>
+        <div className="footerMenu">
             {
-                footerMenu.map((el) => {
+                footerMenu.map((el) =>
                     <>
                         <a 
                             className="footerMenuLink"
@@ -13,11 +16,11 @@ export default function FooterMenu() {
                             key={ el.id }
                             id={`menu${el.title}`}>
 
-                            { index === 0? `${el.title} ` : `| ${el.title}` }
+                            { el.id === 1? `${el.title} ` : `| ${el.title} ` }
 
                         </a>
                     </>
-                })
+                )
             }
         </div>
     )
