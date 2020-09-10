@@ -4,7 +4,7 @@ import NavBrand from './NavBrand'
 
 export default function Navigation() {
     return (
-        <nav>
+        <nav className="navigation" id="navigationHeader">
             <NavBrand />
             <Menu />
         </nav>

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title" : "Guidelines",
+        "link" : "/newsguidelines.html"
+    },
+    {
+        "id": 2,
+        "title" : "FAQ",
+        "link" : "/front"
+    },
+    {
+        "id": 3,
+        "title" : "Support",
+        "link" : "/newcomments"
+    },
+    {
+        "id": 4,
+        "title" : "API",
+        "link" : "https://github.com/HackerNews/API"
+    },
+    {
+        "id": 5,
+        "title" : "Security",
+        "link" : "/security.html"
+    },
+    {
+        "id": 6,
+        "title" : "Lists",
+        "link" : "/lists"
+    },
+    {
+        "id": 7,
+        "title" : "Bookmarklet",
+        "link" : "/mookmarklet.html"
+    },
+    {
+        "id": 8,
+        "title" : "Legal",
+        "link" : "/legal"
+    },
+    {
+        "id": 9,
+        "title" : "Apply to YC",
+        "link" : "/apply"
+    },
+    {
+        "id": 10,
+        "title" : "Contact",
+        "link" : "mailto:hn@ycombinator.com"
+    }
+]
